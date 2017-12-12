@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.aspire.test.SpringJdbcTest" time="0.97" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\SPRING\SpringWorkspaceAdvanced\SpringJdbcBootAutoConfiguration"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\SPRING\SpringWorkspaceAdvanced\SpringJdbcBootAutoConfiguration"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAMESH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\SPRING\SpringWorkspaceAdvanced\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5425300225063914634.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Program Files/Java/jdk1.8.0_65/bin/../jre/bin/server;D:/Program Files/Java/jdk1.8.0_65/bin/../jre/bin;D:/Program Files/Java/jdk1.8.0_65/bin/../jre/lib/amd64;.;C:\scala\bin;D:\Program Files\Java\jdk1.8.0_65\bin;D:\Online Training\Concurrency\Softwares\apache-maven-3.0.3\bin;C:\ProgramData\Oracle\Java\javapath;D:\Sun\jwsdp-2.0\jaxrpc\bin;D:\Online Training\Collections and Generics and Maven\Softwares\apache-maven-3.0.3\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Program Files\TortoiseSVN\bin;D:\Program Files\VisualSVN Server\bin;C:\scala\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\Ramesh-PC\AppData\Local\Microsoft\WindowsApps;;D:\SPRING\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Ramesh-PC"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Ramesh-PC"/>
+    <property name="java.class.path" value="/D:/SPRING/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\SPRING\SpringWorkspaceAdvanced\SpringJdbcBootAutoConfiguration\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testSpringJdbc" classname="edu.aspire.test.SpringJdbcTest" time="0.97">
+    <error message="PreparedStatementCallback; SQL []; ORA-00001: unique constraint (SYSTEM.SYS_C0013337) violated&#10;; nested exception is java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C0013337) violated&#10;" type="org.springframework.dao.DuplicateKeyException"><![CDATA[org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL []; ORA-00001: unique constraint (SYSTEM.SYS_C0013337) violated
+; nested exception is java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C0013337) violated
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:207)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1010)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3576)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3657)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1350)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:105)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:877)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:870)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:870)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:894)
+	at edu.aspire.daos.EmployeeDaoImpl.save(EmployeeDaoImpl.java:25)
+	at edu.aspire.daos.EmployeeDaoImpl$$FastClassBySpringCGLIB$$66d599ef.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at edu.aspire.daos.EmployeeDaoImpl$$EnhancerBySpringCGLIB$$533988bf.save(<generated>)
+	at edu.aspire.test.SpringJdbcTest.testSpringJdbc(SpringJdbcTest.java:33)
+]]></error>
+    <system-out><![CDATA[13:53:50.257 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class edu.aspire.test.SpringJdbcTest]
+13:53:50.268 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:53:50.280 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:53:50.327 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [edu.aspire.test.SpringJdbcTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:53:50.340 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.aspire.test.SpringJdbcTest], using SpringBootContextLoader
+13:53:50.344 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.aspire.test.SpringJdbcTest]: class path resource [edu/aspire/test/SpringJdbcTest-context.xml] does not exist
+13:53:50.345 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.aspire.test.SpringJdbcTest]: class path resource [edu/aspire/test/SpringJdbcTestContext.groovy] does not exist
+13:53:50.345 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [edu.aspire.test.SpringJdbcTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:53:50.423 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [edu.aspire.test.SpringJdbcTest]
+13:53:50.430 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [edu.aspire.test.SpringJdbcTest]: using defaults.
+13:53:50.433 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:53:50.451 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+13:53:50.463 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4eb7f003, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@eafc191, org.springframework.test.context.support.DirtiesContextTestExecutionListener@612fc6eb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1060b431, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@612679d6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@11758f2a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e720b71, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b26f7b2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@491cc5c9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74ad1f1f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a1aab78]
+13:53:50.467 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.aspire.test.SpringJdbcTest]
+13:53:50.468 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.aspire.test.SpringJdbcTest]
+13:53:50.472 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class edu.aspire.test.SpringJdbcTest]
+13:53:50.473 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:53:50.473 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:53:50.474 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [edu.aspire.test.SpringJdbcTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:53:50.475 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.aspire.test.SpringJdbcTest], using SpringBootContextLoader
+13:53:50.476 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.aspire.test.SpringJdbcTest]: class path resource [edu/aspire/test/SpringJdbcTest-context.xml] does not exist
+13:53:50.477 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.aspire.test.SpringJdbcTest]: class path resource [edu/aspire/test/SpringJdbcTestContext.groovy] does not exist
+13:53:50.477 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [edu.aspire.test.SpringJdbcTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:53:50.494 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [edu.aspire.test.SpringJdbcTest]
+13:53:50.500 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [edu.aspire.test.SpringJdbcTest]: using defaults.
+13:53:50.504 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:53:50.507 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+13:53:50.508 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@954b04f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@149494d8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@710726a3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@646007f4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@481a15ff, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@78186a70, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@306279ee, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@545997b1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4cf4d528, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@77846d2c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@548ad73b]
+13:53:50.508 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.aspire.test.SpringJdbcTest]
+13:53:50.509 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.aspire.test.SpringJdbcTest]
+13:53:50.510 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.aspire.test.SpringJdbcTest]
+13:53:50.510 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.aspire.test.SpringJdbcTest]
+13:53:50.515 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@17211155 testClass = SpringJdbcTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@b3d7190 testClass = SpringJdbcTest, locations = '{}', classes = '{class edu.aspire.config.SpringJdbcConfig, class edu.aspire.config.SpringJdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5fdba6f9 key = [@org.springframework.boot.SpringBootConfiguration(), @org.springframework.boot.autoconfigure.AutoConfigurationPackage(), @org.springframework.context.annotation.Configuration(value=), @org.springframework.stereotype.Component(value=), @org.junit.runner.RunWith(value=class org.springframework.test.context.junit4.SpringJUnit4ClassRunner), @org.springframework.boot.autoconfigure.SpringBootApplication(scanBasePackageClasses=[], excludeName=[], exclude=[], scanBasePackages=[]), @org.springframework.context.annotation.Import(value=[class org.springframework.boot.autoconfigure.EnableAutoConfigurationImportSelector]), @org.springframework.context.annotation.ComponentScan(scopeResolver=class org.springframework.context.annotation.AnnotationScopeMetadataResolver, lazyInit=false, resourcePattern=**/*.class, useDefaultFilters=true, excludeFilters=[@org.springframework.context.annotation.ComponentScan$Filter(pattern=[], type=CUSTOM, value=[], classes=[class org.springframework.boot.context.TypeExcludeFilter]), @org.springframework.context.annotation.ComponentScan$Filter(pattern=[], type=CUSTOM, value=[], classes=[class org.springframework.boot.autoconfigure.AutoConfigurationExcludeFilter])], scopedProxy=DEFAULT, basePackageClasses=[], nameGenerator=interface org.springframework.beans.factory.support.BeanNameGenerator, basePackages=[], value=[], includeFilters=[]), @org.springframework.boot.test.context.SpringBootTest(webEnvironment=MOCK, value=[], properties=[], classes=[class edu.aspire.config.SpringJdbcConfig]), @org.springframework.boot.autoconfigure.EnableAutoConfiguration(excludeName=[], exclude=[]), @org.springframework.context.annotation.Import(value=[class org.springframework.boot.autoconfigure.AutoConfigurationPackages$Registrar]), @org.springframework.test.context.BootstrapWith(value=class org.springframework.boot.test.context.SpringBootTestContextBootstrapper)]], org.springframework.boot.test.context.SpringBootTestContextCustomizer@2b552920, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@578486a3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@23faf8f2], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+13:53:50.516 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.aspire.test.SpringJdbcTest]
+13:53:50.516 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.aspire.test.SpringJdbcTest]
+13:53:50.518 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@17211155 testClass = SpringJdbcTest, testInstance = edu.aspire.test.SpringJdbcTest@24b1d79b, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@b3d7190 testClass = SpringJdbcTest, locations = '{}', classes = '{class edu.aspire.config.SpringJdbcConfig, class edu.aspire.config.SpringJdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5fdba6f9 key = [@org.springframework.boot.SpringBootConfiguration(), @org.springframework.boot.autoconfigure.AutoConfigurationPackage(), @org.springframework.context.annotation.Configuration(value=), @org.springframework.stereotype.Component(value=), @org.junit.runner.RunWith(value=class org.springframework.test.context.junit4.SpringJUnit4ClassRunner), @org.springframework.boot.autoconfigure.SpringBootApplication(scanBasePackageClasses=[], excludeName=[], exclude=[], scanBasePackages=[]), @org.springframework.context.annotation.Import(value=[class org.springframework.boot.autoconfigure.EnableAutoConfigurationImportSelector]), @org.springframework.context.annotation.ComponentScan(scopeResolver=class org.springframework.context.annotation.AnnotationScopeMetadataResolver, lazyInit=false, resourcePattern=**/*.class, useDefaultFilters=true, excludeFilters=[@org.springframework.context.annotation.ComponentScan$Filter(pattern=[], type=CUSTOM, value=[], classes=[class org.springframework.boot.context.TypeExcludeFilter]), @org.springframework.context.annotation.ComponentScan$Filter(pattern=[], type=CUSTOM, value=[], classes=[class org.springframework.boot.autoconfigure.AutoConfigurationExcludeFilter])], scopedProxy=DEFAULT, basePackageClasses=[], nameGenerator=interface org.springframework.beans.factory.support.BeanNameGenerator, basePackages=[], value=[], includeFilters=[]), @org.springframework.boot.test.context.SpringBootTest(webEnvironment=MOCK, value=[], properties=[], classes=[class edu.aspire.config.SpringJdbcConfig]), @org.springframework.boot.autoconfigure.EnableAutoConfiguration(excludeName=[], exclude=[]), @org.springframework.context.annotation.Import(value=[class org.springframework.boot.autoconfigure.AutoConfigurationPackages$Registrar]), @org.springframework.test.context.BootstrapWith(value=class org.springframework.boot.test.context.SpringBootTestContextBootstrapper)]], org.springframework.boot.test.context.SpringBootTestContextCustomizer@2b552920, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@578486a3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@23faf8f2], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]].
+13:53:50.592 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:53:50.593 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:53:50.593 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:53:50.597 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+13:53:50.602 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+13:53:50.603 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.2.RELEASE)
+
+2017-04-11 13:53:50.983  INFO 10176 --- [           main] edu.aspire.test.SpringJdbcTest           : Starting SpringJdbcTest on Ramesh with PID 10176 (started by Ramesh-PC in D:\SPRING\SpringWorkspaceAdvanced\SpringJdbcBootAutoConfiguration)
+2017-04-11 13:53:50.984  INFO 10176 --- [           main] edu.aspire.test.SpringJdbcTest           : No active profile set, falling back to default profiles: default
+2017-04-11 13:53:51.014  INFO 10176 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24313fcc: startup date [Tue Apr 11 13:53:51 IST 2017]; root of context hierarchy
+***SpringJdbcConfig***
+***ComboPooledDataSource***
+2017-04-11 13:53:52.055  INFO 10176 --- [           main] com.mchange.v2.log.MLog                  : MLog clients using log4j logging.
+2017-04-11 13:53:52.426  INFO 10176 --- [           main] com.mchange.v2.c3p0.C3P0Registry         : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-11 13:53:52.925  INFO 10176 --- [           main] edu.aspire.test.SpringJdbcTest           : Started SpringJdbcTest in 2.319 seconds (JVM running for 3.325)
+2017-04-11 13:53:53.040  INFO 10176 --- [           main] c.m.v.c.i.AbstractPoolBackedDataSource   : Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxtv9npk2v5op7atvu|3243b914, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxtv9npk2v5op7atvu|3243b914, idleConnectionTestPeriod -> 0, initialPoolSize -> 15, jdbcUrl -> jdbc:oracle:thin:@localhost:1521:xe, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 25, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-11 13:53:53.706  INFO 10176 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-04-11 13:53:53.845  INFO 10176 --- [           main] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+]]></system-out>
+  </testcase>
+</testsuite>
